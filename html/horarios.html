@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Horarios</title>
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="../Index.html">
+          <img src="./Imagenes/virgenChica.jfif" alt="logo" style="width:40px;">
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/comunidad.html">Comunidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/tareas.html">Tareas pastorales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/horarios.html">Horarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/galeria.html">Galería de Imagenes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+
+
+
+    <br>
+    <div class="container">
+      <h2>Horarios del Santuario</h2>
+      <br>
+      <!-- Nav pills -->
+      <ul class="nav nav-pills" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#misa">Misas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#secretaria">Secretaría</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#bautismos">Bautismos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#difuntos">Celebración por los difuntos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#bendiciones">Bendiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#confesiones">Confesiones</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="misa" class="container tab-pane active"><br>
+          <h3>Horarios de misa</h3>
+          <h4>Lunes a Sábado</h4>
+          <ul class="listhor">
+            <li>18:30 hs (Abril-Octubre)</li>
+            <li>19:30 hs (Noviembre-Marzo)</li>
+          </ul>
+          <h3>Domingos</h3>
+          <h4>Mañana</h4>
+          <ul class="listhor">
+            <li>10:00 hs</li>
+            <li>11:30 hs</li>
+          </ul>
+          <h4>Tarde</h4>
+          <ul class="listhor">
+            <li>17:30 y 19:00 hs (Abril-Octubre)</li>
+            <li>18:30 y 20:00 hs (Noviembre-Marzo)</li>
+          </ul>
+          <h3>Misa por la salud de los enfermos</h3>
+          <p>Día 11 de cada mes</p>
+          <ul class="listhor">
+            <li>16:00hs (Abril-Octubre)</li>
+            <li>17:00hs (Noviembre-Marzo)</li>
+          </ul>
+        </div>
+        <div id="secretaria" class="container tab-pane fade"><br>
+          <h3>Horarios de Secretaría</h3>
+          <ul class="listhor">
+            <li>Martes a viernes: de 16:00 a 19:30 hs.</li>
+            <li>Sábados: 9-13 y 16-20 hs</li>
+          </ul>
+        </div>
+        <div id="bautismos" class="container tab-pane fade"><br>
+          <h3>Horarios de Bautismos</h3>
+          <p>1ros y 3ros sábados de cada mes 11:00 hs</p>
+          <p class="nota">Para bautizar deberán contactarse previmente con secretaría y realizar la catequesis
+            respectiva</p>
+        </div>
+        <div id="difuntos" class="container tab-pane fade"><br>
+          <h3>Celebración por los difuntos</h3>
+          <p>Misa por los difuntos: último viernes de cada mes</p>
+        </div>
+        <div id="bendiciones" class="container tab-pane fade"><br>
+          <h3>Horarios de bendiciones</h3>
+          <p class="importante">Los sacertotes estamos disponibles para bendecir y confesar a cualquier hora</p>
+          <ul class="listhor">
+            <li>Lunes a Sabado al medio día</li>
+            <li>Mañana: 9:00 a 12:00 hs</li>
+            <li>Tarde: 16:00 a 19:30 hs</li>
+            <li>Sabados por la tarde y Domingos: con la bendición final de cada misa</li>
+          </ul>
+        </div>
+        <div id="confesiones" class="container tab-pane fade"><br>
+          <h3>Horarios de confesiones</h3>
+          <p class="importante">Los sacertotes estamos disponibles para bendecir y confesar a cualquier hora</p>
+          <ul class="listhor">
+            <li>Lunes a Sabado al medio día</li>
+            <li>Mañana: 9:00 a 12:00 hs</li>
+            <li>Tarde: 16:00 a 19:30 hs</li>
+            <li>Sabados por la tarde y Domingos: con la bendición final de cada misa</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+        <div class="contacto">
+            <ul class="contactFoot">
+                <li>Telefono: (0261) 4442344 - 5249540</li>
+                <li>Email: santuariodelourdesmza@gmail.com</li>
+                <li>Dirección postal: Santuario Nuestra Señora de Lourdes - El Challao - Mendoza (5500)</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="contactDesigner">
+                <li class="copiright">WebSite disegned by <a
+                        href="https://www.linkedin.com/in/joaqu%C3%ADn-gonz%C3%A1lez-del-solar-303591131">Joaquín
+                        Gonzalez del Solar</a></li>
+                <li>Contact: +542612520821</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
