@@ -82,11 +82,11 @@ p {
 }
 
 .presentation {
-  height: 500px;
-  width: 800px;
+  height: 800px;
+  width: 100%;
   background-image: url(../images/santuario1.JPG);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   margin: auto;
 }
 
