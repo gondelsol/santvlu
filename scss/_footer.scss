@@ -1,0 +1,12 @@
+@import "variables";
+
+footer {
+    & .contacto {
+        & .contactFoot{
+            list-style: none;
+        }
+    }
+    & .contactDesigner {
+        color: red;
+    }
+}

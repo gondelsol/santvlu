@@ -8,10 +8,86 @@
 .color5 {color: #efffd2;}
 */
 /* fuentes */
+/*font size*/
 /* margins and padding */
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Caveat&family=Handlee&family=PT+Serif:ital@1&family=Patrick+Hand&display=swap");
+/* paleta de colores */
+/*
+.color1 {color: #00a6ff;}
+.color2 {color: #00d5ff;}
+.color3 {color: #00ffff;}
+.color4 {color: #39fff1;}
+.color5 {color: #efffd2;}
+*/
+/* fuentes */
+/*font size*/
+/* margins and padding */
+footer .contacto .contactFoot {
+  list-style: none;
+}
+footer .contactDesigner {
+  color: red;
+}
+
 * {
   margins: 0px;
   padding: 0px;
+}
+
+body {
+  background-image: url(../images/fondo1.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+h1 {
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Handlee", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Handlee", cursive;
+  font-size: 25px;
+}
+
+.navbar {
+  background-color: #00d5ff !important;
+  font-family: "Handlee", cursive;
+  font-size: 20px;
+}
+.navbar a::first-letter {
+  font-size: 25px;
+}
+
+.nav-link {
+  color: white !important;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+
+.nav-link:hover {
+  color: #efffd2 !important;
+  font-size: 25px;
+}
+
+.presentation {
+  height: 500px;
+  width: 800px;
+  background-image: url(../images/santuario1.JPG);
+  background-size: cover;
+  background-position: top;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
