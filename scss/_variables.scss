@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Caveat&family=Handlee&family=PT+Serif:ital@1&family=Patrick+Hand&display=swap');
+
+
+/* paleta de colores */
+
+$color1: #00a6ff;
+$color2: #00d5ff;
+$color3: #00ffff;
+$color4: #39fff1;
+$color5: #efffd2;
+
+/*
+.color1 {color: #00a6ff;}
+.color2 {color: #00d5ff;}
+.color3 {color: #00ffff;}
+.color4 {color: #39fff1;}
+.color5 {color: #efffd2;}
+*/
+
+/* fuentes */
+
+$fuente1: 'Annie Use Your Telescope', cursive;
+$fuente2: 'Caveat', cursive;
+$fuente3: 'Handlee', cursive;
+$fuente4: 'Patrick Hand', cursive;
+$fuente5: 'PT Serif', serif;
+
+/* margins and padding */
+
+$dist1: 5px;
+$dist2: 2*$dist1;
+$dist3: 3*$dist1;
+$dist4: 4*$dist1;
+$dist5: 5*$dist1;
+$dist6: 6*$dist1;

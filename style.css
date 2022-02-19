@@ -1,3 +1,17 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Caveat&family=Handlee&family=PT+Serif:ital@1&family=Patrick+Hand&display=swap");
+/* paleta de colores */
+/*
+.color1 {color: #00a6ff;}
+.color2 {color: #00d5ff;}
+.color3 {color: #00ffff;}
+.color4 {color: #39fff1;}
+.color5 {color: #efffd2;}
+*/
+/* fuentes */
+/* margins and padding */
+* {
+  margins: 0px;
+  padding: 0px;
+}
 
 /*# sourceMappingURL=style.css.map */
