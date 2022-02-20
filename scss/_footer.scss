@@ -50,13 +50,13 @@ footer {
 
         a {
             text-decoration: none;
-            color: $color1;
+            color: $color5;
             transition-property: all;
-            transition-duration: 1s;
+            transition-duration: 0.5s;
         }
 
         a:hover {
-            color: $color5;
+            color: $color1;
         }
 
 
