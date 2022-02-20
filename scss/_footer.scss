@@ -1,12 +1,61 @@
 @import "variables";
 
 footer {
+    margin-top: $dist6;
+    & .redes {
+
+        font-size: $fsize7;
+        text-align: center;
+        margin: auto;
+        margin-bottom: $dist3;
+
+        & .fab, .fa-brands {
+            color: $color2;
+            margin-left: $dist6;
+            margin-right: $dist6;
+            align-content: space-around;
+            transition-property: all;
+            transition-duration: 0.5s;
+        }
+
+        & .fab:hover {
+            color: $color4;
+        }
+        & .fa-brands:hover {
+            color: $color4;
+        }
+
+
+    }
+
     & .contacto {
-        & .contactFoot{
+        & .contactFoot {
             list-style: none;
+            text-align: right;
+
         }
     }
+
     & .contactDesigner {
-        color: red;
+        text-align: center;
+
+        p {
+            font-family: $fuente5;
+            font-size: $fsize3;
+            color: $color2;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color1;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+
+        a:hover {
+            color: $color3;
+        }
+
+
     }
 }
