@@ -1,6 +1,8 @@
 @import "variables";
 
 footer {
+    background-color: $color2;
+    color: $color5;
     margin-top: $dist6;
     & .redes {
 
@@ -10,7 +12,7 @@ footer {
         margin-bottom: $dist3;
 
         & .fab, .fa-brands {
-            color: $color2;
+            color: $color5;
             margin-left: $dist6;
             margin-right: $dist6;
             align-content: space-around;
@@ -19,10 +21,10 @@ footer {
         }
 
         & .fab:hover {
-            color: $color4;
+            color: $color1;
         }
         & .fa-brands:hover {
-            color: $color4;
+            color: $color1;
         }
 
 
@@ -30,6 +32,7 @@ footer {
 
     & .contacto {
         & .contactFoot {
+            margin-right: $dist10;
             list-style: none;
             text-align: right;
 
@@ -42,7 +45,7 @@ footer {
         p {
             font-family: $fuente5;
             font-size: $fsize3;
-            color: $color2;
+            //color: $color2;
         }
 
         a {
@@ -53,7 +56,7 @@ footer {
         }
 
         a:hover {
-            color: $color3;
+            color: $color5;
         }
 
 
