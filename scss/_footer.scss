@@ -2,7 +2,7 @@
 
 footer {
     background-color: $color2;
-    color: $color5;
+    color: $color6;
     margin-top: $dist6;
     & .redes {
 
@@ -12,7 +12,7 @@ footer {
         margin-bottom: $dist3;
 
         & .fab, .fa-brands {
-            color: $color5;
+            color: $color6;
             margin-left: $dist6;
             margin-right: $dist6;
             align-content: space-around;
@@ -26,8 +26,6 @@ footer {
         & .fa-brands:hover {
             color: $color1;
         }
-
-
     }
 
     & .contacto {
